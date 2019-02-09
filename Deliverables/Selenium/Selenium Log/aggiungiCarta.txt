@@ -1,0 +1,132 @@
+Running 'T.C_1.1_01'
+1.open on http://localhost:8080/Kloudy/AggiungiCarta OK
+2.assertTitle on Errore! OK
+'T.C_1.1_01' completed successfully
+
+
+
+
+Running 'T.C_1.1_02'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(6) img OK
+10.click on linkText=Aggiungi nuova carta OK
+11.click on name=cardnumber OK
+12.type on name=cardnumber with value 1234 OK
+13.click on css=.signupbtn OK
+14.assertTitle on Errore! OK
+15.click on css=a:nth-child(5) > img OK
+16.click on css=.userPanel input OK
+17.close OK
+'T.C_1.1_02' completed successfully
+
+
+'T.C_1.1_03' completed successfully
+Running 'T.C_1.1_03'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(5) > img OK
+9.click on css=.addBox:nth-child(6) img OK
+10.click on css=.btn-glyphicon OK
+11.click on name=cardholder OK
+12.click on name=cardholder OK
+13.click on name=cardnumber OK
+14.type on name=cardnumber with value 1111111111111111 OK
+15.click on id=mesescadenza OK
+16.select on id=mesescadenza with value label=Set (09) OK
+17.click on css=option:nth-child(9) OK
+18.click on name=annoscadenza OK
+19.select on name=annoscadenza with value label=2021 OK
+20.click on css=.form-control:nth-child(14) > option:nth-child(3) OK
+21.click on name=cardcvv OK
+22.type on name=cardcvv with value 1234567 OK
+23.click on css=.signupbtn OK
+24.assertTitle on Errore! OK
+25.mouseDownAt on css=.sidenav > a:nth-child(5) with value 90,20 OK
+26.mouseMoveAt on css=.sidenav > a:nth-child(5) with value 90,20 OK
+27.mouseUpAt on css=.sidenav > a:nth-child(5) with value 90,20 OK
+28.click on css=.sidenav > a:nth-child(5) OK
+29.click on css=.userPanel OK
+30.click on css=.userPanel input OK
+31.close OK
+'T.C_1.1_03' completed successfully
+
+
+
+'T.C_1.1_04' completed successfully
+Running 'T.C_1.1_04'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(6) img OK
+10.click on linkText=Aggiungi nuova carta OK
+11.click on name=cardholder OK
+12.type on name=cardholder with value Tito1234 OK
+13.click on name=cardnumber OK
+14.click on name=cardnumber OK
+15.doubleClick on name=cardnumber OK
+16.type on name=cardnumber with value 1111111111111111 OK
+17.click on id=mesescadenza OK
+18.select on id=mesescadenza with value label=Nov (11) OK
+19.click on css=option:nth-child(11) OK
+20.click on name=annoscadenza OK
+21.select on name=annoscadenza with value label=2022 OK
+22.click on css=.form-control:nth-child(14) > option:nth-child(4) OK
+23.click on name=cardcvv OK
+24.type on name=cardcvv with value 123 OK
+25.click on css=.signupcontainer OK
+26.click on css=.signupbtn OK
+27.assertTitle on Errore! OK
+28.click on css=a:nth-child(5) > img OK
+29.click on css=.userPanel input OK
+'T.C_1.1_04' completed successfully
+
+
+
+Running 'T.C_1.1_05'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(6) img OK
+10.click on linkText=Aggiungi nuova carta OK
+11.click on name=cardholder OK
+12.type on name=cardholder with value TestIntestatario OK
+13.click on name=cardnumber OK
+14.click on name=cardnumber OK
+15.doubleClick on name=cardnumber OK
+16.type on name=cardnumber with value 1111111111111111 OK
+17.click on id=mesescadenza OK
+18.select on id=mesescadenza with value label=Apr (04) OK
+19.click on css=#mesescadenza > option:nth-child(4) OK
+20.click on name=annoscadenza OK
+21.select on name=annoscadenza with value label=2025 OK
+22.click on css=.form-control:nth-child(14) > option:nth-child(7) OK
+23.click on name=cardcvv OK
+24.type on name=cardcvv with value 123 OK
+25.click on css=.content OK
+26.click on css=.signupbtn OK
+27.assertTitle on Lista carte di credito OK
+28.click on css=a:nth-child(5) > img OK
+29.click on css=.userPanel input OK
+'T.C_1.1_05' completed successfully

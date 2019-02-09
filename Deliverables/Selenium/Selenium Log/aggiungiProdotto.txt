@@ -1,0 +1,177 @@
+Running 'T.C_2.1_01'
+1.open on http://localhost:8080/Kloudy/addProduct.jsp OK
+2.assertTitle on Errore! OK
+'T.C_2.1_01' completed successfully
+
+
+Running 'T.C_2.1_02'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=uname with value gianluca OK
+6.type on name=psw with value aaa111 OK
+7.sendKeys on name=psw with value ${KEY_ENTER} OK
+8.open on http://localhost:8080/Kloudy/addProduct.jsp OK
+9.assertTitle on Errore! OK
+10.click on css=a:nth-child(5) > img OK
+11.click on css=.userPanel input OK
+'T.C_2.1_02' completed successfully
+
+Running 'T.C_2.1_03'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(5) > img OK
+9.click on css=.addBox:nth-child(3) img OK
+10.click on css=.addBox:nth-child(2) img OK
+11.click on name=categoria OK
+12.click on css=#formImg input:nth-child(3) OK
+13.type on css=#formImg input:nth-child(3) with value ok OK
+14.click on css=.clearfix:nth-child(22) > .signupbtn OK
+15.assertTitle on Errore! OK
+16.click on css=.sidenav > a:nth-child(5) OK
+17.click on css=.userPanel input OK
+'T.C_2.1_03' completed successfully
+
+
+Running 'T.C_2.1_04'
+1.open on http://localhost:8080/Kloudy/home.jsp OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.mouseDownAt on name=uname with value 318,35 OK
+5.mouseMoveAt on name=uname with value 318,35 OK
+6.mouseUpAt on name=uname with value 318,35 OK
+7.click on name=uname OK
+8.type on name=psw with value aaa111 OK
+9.type on name=psw with value aaa111 OK
+10.type on name=uname with value TitoFornasiero OK
+11.type on name=uname with value TitoFornasiero OK
+12.mouseDownAt on css=.logincontainer > button with value 170,17 OK
+13.mouseMoveAt on css=.logincontainer > button with value 170,17 OK
+14.mouseUpAt on css=.logincontainer > button with value 170,17 OK
+15.click on css=.logincontainer > button OK
+16.click on css=.sidenav > a:nth-child(5) OK
+17.click on css=.addBox:nth-child(3) img OK
+18.click on css=.addBox:nth-child(2) img OK
+19.click on name=categoria OK
+20.click on css=#formImg > form OK
+21.click on css=#formImg input:nth-child(3) OK
+22.type on css=#formImg input:nth-child(3) with value Opera Test OK
+23.click on css=#formImg #descrizione OK
+24.type on css=#formImg #descrizione with value op3ra di t&st OK
+25.click on css=.clearfix:nth-child(22) > .signupbtn OK
+26.assertTitle on Errore! OK
+27.click on css=.sidenav > a:nth-child(5) OK
+28.click on css=.userPanel input OK
+'T.C_2.1_04' completed successfully
+
+
+
+Running 'T.C_2.1_05'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(5) > img OK
+9.click on css=.addBox:nth-child(3) img OK
+10.click on css=.addBox:nth-child(2) img OK
+11.click on name=categoria OK
+12.click on css=#formImg input:nth-child(3) OK
+13.type on css=#formImg input:nth-child(3) with value Opera test OK
+14.type on css=#formImg #descrizione with value questa è un'opera di test OK
+15.click on css=#formImg #data OK
+16.click on css=#formImg #data OK
+17.doubleClick on css=#formImg #data OK
+18.type on css=#formImg #data with value 2019-02-13 OK
+19.click on css=#formImg #dimensione OK
+20.type on css=#formImg #dimensione with value 30MB OK
+21.click on css=.clearfix:nth-child(22) > .signupbtn OK
+22.assertTitle on Errore! OK
+23.click on css=a:nth-child(5) > img OK
+24.click on css=.userPanel input OK
+'T.C_2.1_05' completed successfully
+
+
+
+Running 'T.C_2.1_06'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(5) > img OK
+9.click on css=.addBox:nth-child(3) img OK
+10.click on css=.addBox:nth-child(2) img OK
+11.click on name=categoria OK
+12.click on css=#formImg input:nth-child(3) OK
+13.click on css=#formImg input:nth-child(3) OK
+14.doubleClick on css=#formImg input:nth-child(3) OK
+15.type on css=#formImg input:nth-child(3) with value Opera Test OK
+16.click on css=#formImg label:nth-child(4) > b OK
+17.click on css=#formImg #descrizione OK
+18.click on css=#formImg #descrizione OK
+19.doubleClick on css=#formImg #descrizione OK
+20.type on css=#formImg #descrizione with value questa è un'opera di test OK
+21.click on css=#formImg #data OK
+22.type on css=#formImg #data with value 2019-02-06 OK
+23.click on css=#formImg #dimensione OK
+24.type on css=#formImg #dimensione with value 50x30 OK
+25.type on css=#formImg input:nth-child(14) with value opera:bma OK
+26.click on css=.clearfix:nth-child(22) > .signupbtn OK
+27.assertTitle on Errore! OK
+28.click on css=a:nth-child(5) > img OK
+29.click on css=.userPanel input OK
+'T.C_2.1_06' completed successfully
+
+
+
+Running 'T.C_2.1_07'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(3) img OK
+10.click on css=.addBox:nth-child(2) img OK
+11.click on name=categoria OK
+12.click on css=#formImg input:nth-child(3) OK
+13.click on css=#formImg input:nth-child(3) OK
+14.doubleClick on css=#formImg input:nth-child(3) OK
+15.type on css=#formImg input:nth-child(3) with value Opera Test OK
+16.click on css=#formImg #descrizione OK
+17.click on css=#formImg #descrizione OK
+18.doubleClick on css=#formImg #descrizione OK
+19.type on css=#formImg #descrizione with value questa è un'opera di test OK
+20.click on css=#formImg #data OK
+21.type on css=#formImg #data with value 2019-01-30 OK
+22.click on css=#formImg #dimensione OK
+23.click on css=#formImg #dimensione OK
+24.doubleClick on css=#formImg #dimensione OK
+25.type on css=#formImg #dimensione with value 50x30 OK
+26.click on css=#formImg input:nth-child(14) OK
+27.click on css=#formImg input:nth-child(14) OK
+28.doubleClick on css=#formImg input:nth-child(14) OK
+29.click on css=#formImg input:nth-child(14) OK
+30.type on css=#formImg input:nth-child(14) with value opera.jpg OK
+31.click on css=.clearfix:nth-child(22) > .signupbtn OK
+32.assertTitle on Opere in vendita OK
+33.click on css=.sidenav > a:nth-child(5) OK
+34.click on css=.userPanel input OK
+'T.C_2.1_07' completed successfully
+
+
+
+

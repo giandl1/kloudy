@@ -1,0 +1,252 @@
+Running 'T.C_1.3_01'
+1.open on http://localhost:8080/Kloudy/AggiungiIndirizzo OK
+2.assertTitle on Errore! OK
+'T.C_1.3_01' completed successfully
+
+
+Running 'T.C_1.3_02'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(7) img OK
+10.click on linkText=Aggiungi nuovo indirizzo OK
+11.click on name=nome OK
+12.type on name=nome with value Tito123 OK
+13.click on css=.signupbtn OK
+14.assertTitle on Errore! OK
+15.click on css=.sidenav > a:nth-child(5) OK
+16.click on css=.userPanel input OK
+'T.C_1.3_02' completed successfully
+
+
+Running 'T.C_1.3_03'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(7) img OK
+10.click on linkText=Aggiungi nuovo indirizzo OK
+11.click on name=nome OK
+12.type on name=nome with value Tito OK
+13.click on name=cognome OK
+14.type on name=cognome with value Fo OK
+15.click on css=.signupcontainer OK
+16.click on css=.signupbtn OK
+17.assertTitle on Errore! OK
+18.click on css=.sidenav > a:nth-child(5) OK
+19.click on css=.userPanel input OK
+'T.C_1.3_03' completed successfully
+
+
+Running 'T.C_1.3_04'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(5) > img OK
+9.click on css=.addBox:nth-child(7) img OK
+10.click on linkText=Aggiungi nuovo indirizzo OK
+11.click on name=nome OK
+12.type on name=nome with value Tito OK
+13.click on name=cognome OK
+14.type on name=cognome with value Fornasiero OK
+15.click on name=citta OK
+16.type on name=citta with value V1bo V4le3ntia OK
+17.click on css=.signupbtn OK
+18.assertTitle on Errore! OK
+19.click on css=.sidenav > a:nth-child(5) OK
+20.click on css=.userPanel input OK
+'T.C_1.3_04' completed successfully
+
+
+Running 'T.C_1.3_05'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.click on name=psw OK
+6.click on css=.logincontainer:nth-child(1) OK
+7.click on name=uname OK
+8.type on name=psw with value aaa111 OK
+9.type on name=uname with value TitoFornasiero OK
+10.click on css=.logincontainer > button OK
+11.click on css=.sidenav > a:nth-child(5) OK
+12.click on css=.addBox:nth-child(7) img OK
+13.click on linkText=Aggiungi nuovo indirizzo OK
+14.click on name=nome OK
+15.type on name=nome with value Tito OK
+16.type on name=cognome with value Fornasiero OK
+17.type on name=citta with value Vibo Valentia OK
+18.click on name=provincia OK
+19.type on name=provincia with value Vi4b0 OK
+20.click on css=.signupbtn OK
+21.assertTitle on Errore! OK
+22.click on css=.sidenav > a:nth-child(5) OK
+23.click on css=.userPanel input OK
+'T.C_1.3_05' completed successfully
+
+
+Running 'T.C_1.3_06'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(7) img OK
+10.click on linkText=Aggiungi nuovo indirizzo OK
+11.click on name=nome OK
+12.type on name=nome with value Tito OK
+13.type on name=cognome with value Fornasiero OK
+14.type on name=citta with value Vibo Valentia OK
+15.type on name=provincia with value Vibo Valentia OK
+16.type on name=cap with value 0412345 OK
+17.click on css=.signupbtn OK
+18.assertTitle on Errore! OK
+19.click on css=.sidenav > a:nth-child(5) OK
+20.click on css=.userPanel input OK
+'T.C_1.3_06' completed successfully
+
+
+Running 'T.C_1.3_07'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(5) > img OK
+9.click on css=.addBox:nth-child(7) img OK
+10.click on linkText=Aggiungi nuovo indirizzo OK
+11.click on name=nome OK
+12.click on name=nome OK
+13.doubleClick on name=nome OK
+14.type on name=nome with value Tito OK
+15.click on name=cognome OK
+16.click on name=cognome OK
+17.doubleClick on name=cognome OK
+18.type on name=cognome with value Fornasiero OK
+19.click on name=citta OK
+20.click on name=citta OK
+21.doubleClick on name=citta OK
+22.type on name=citta with value Vibo Valentia OK
+23.click on name=provincia OK
+24.click on name=provincia OK
+25.doubleClick on name=provincia OK
+26.type on name=provincia with value Vibo Valentia OK
+27.click on name=cap OK
+28.type on name=cap with value 81010 OK
+29.click on name=indirizzo OK
+30.type on name=indirizzo with value Pa OK
+31.click on css=.content OK
+32.click on css=.signupbtn OK
+33.assertTitle on Errore! OK
+34.click on css=.sidenav > a:nth-child(5) OK
+35.click on css=.userPanel input OK
+'T.C_1.3_07' completed successfully
+
+
+Running 'T.C_1.3_08'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(7) img OK
+10.click on linkText=Aggiungi nuovo indirizzo OK
+11.click on name=nome OK
+12.click on name=nome OK
+13.doubleClick on name=nome OK
+14.type on name=nome with value Tito OK
+15.click on name=cognome OK
+16.click on name=cognome OK
+17.doubleClick on name=cognome OK
+18.click on name=cognome OK
+19.type on name=cognome with value Fornasiero OK
+20.click on name=citta OK
+21.click on name=citta OK
+22.doubleClick on name=citta OK
+23.type on name=citta with value Vibo Valentia OK
+24.click on name=provincia OK
+25.click on name=provincia OK
+26.doubleClick on name=provincia OK
+27.type on name=provincia with value Vibo Valentia OK
+28.click on css=.signupcontainer OK
+29.click on name=cap OK
+30.click on name=cap OK
+31.doubleClick on name=cap OK
+32.type on name=cap with value 81000 OK
+33.click on name=indirizzo OK
+34.type on name=indirizzo with value Via Roma 2 OK
+35.click on name=telefono OK
+36.type on name=telefono with value 3201 OK
+37.click on css=.signupbtn OK
+38.assertTitle on Errore! OK
+39.click on css=.sidenav > a:nth-child(5) OK
+40.click on css=.userPanel input OK
+'T.C_1.3_08' completed successfully
+
+
+Running 'T.C_1.3_09'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=.sidenav > a:nth-child(5) OK
+9.click on css=.addBox:nth-child(7) img OK
+10.click on linkText=Aggiungi nuovo indirizzo OK
+11.click on css=.signupcontainer OK
+12.click on name=nome OK
+13.click on name=nome OK
+14.doubleClick on name=nome OK
+15.type on name=nome with value Tito OK
+16.click on name=cognome OK
+17.click on name=cognome OK
+18.doubleClick on name=cognome OK
+19.type on name=cognome with value Fornasiero OK
+20.click on name=citta OK
+21.click on name=citta OK
+22.doubleClick on name=citta OK
+23.type on name=citta with value Vibo Valentia OK
+24.click on name=provincia OK
+25.click on name=provincia OK
+26.doubleClick on name=provincia OK
+27.type on name=provincia with value Vibo Valentia OK
+28.click on name=cap OK
+29.click on name=cap OK
+30.doubleClick on name=cap OK
+31.type on name=cap with value 81000 OK
+32.click on name=indirizzo OK
+33.click on name=indirizzo OK
+34.doubleClick on name=indirizzo OK
+35.type on name=indirizzo with value Via Roma 2 OK
+36.click on name=telefono OK
+37.click on name=telefono OK
+38.doubleClick on name=telefono OK
+39.type on name=telefono with value 3200781141 OK
+40.click on css=.signupbtn OK
+41.assertTitle on Lista indirizzi OK
+42.click on css=.sidenav > a:nth-child(5) OK
+43.click on css=.userPanel input OK
+'T.C_1.3_09' completed successfully

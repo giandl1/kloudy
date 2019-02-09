@@ -1,0 +1,88 @@
+Running 'T.C_3.3_01'
+1.open on http://localhost:8080/Kloudy/ConfermaOrdine OK
+2.assertTitle on Errore! OK
+'T.C_3.3_01' completed successfully
+
+
+
+Running 'T.C_3.3_02'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value gianluca OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(6) > img OK
+9.click on css=.checkoutDiv input OK
+10.assertTitle on Errore! OK
+11.click on css=a:nth-child(5) > img OK
+12.click on css=.userPanel input OK
+'T.C_3.3_02' completed successfully
+
+
+
+
+Running 'T.C_3.3_03'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value gianluca OK
+7.click on css=.logincontainer > button OK
+8.click on linkText=Arte Digitale OK
+9.click on css=tr:nth-child(2) input:nth-child(5) OK
+10.click on css=.checkoutDiv input OK
+11.click on css=.btn OK
+12.assertTitle on Errore! OK
+13.click on css=.sidenav > a:nth-child(5) OK
+14.click on css=.userPanel input OK
+'T.C_3.3_03' completed successfully
+
+
+
+Running 'T.C_3.3_04'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value gianluca OK
+7.click on css=.logincontainer > button OK
+8.click on linkText=Arte Digitale OK
+9.click on css=tr:nth-child(2) input:nth-child(5) OK
+10.click on css=.checkoutDiv input OK
+11.click on id=carta OK
+12.select on id=carta with value label=1111XXXXXXXX1111 OK
+13.click on css=#carta > option:nth-child(2) OK
+14.click on css=.btn OK
+15.click on css=a:nth-child(5) > img OK
+16.click on css=.userPanel input OK
+17.close OK
+'T.C_3.3_04' completed successfully
+
+
+
+Running 'T.C_3.3_05'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value gianluca OK
+7.click on css=.logincontainer > button OK
+8.click on linkText=Arte Digitale OK
+9.click on css=tr:nth-child(2) input:nth-child(5) OK
+10.click on css=.checkoutDiv input OK
+11.click on id=indirizzo OK
+12.select on id=indirizzo with value label=Via asd 123, Maddaloni OK
+13.click on css=#indirizzo > option:nth-child(2) OK
+14.click on id=carta OK
+15.select on id=carta with value label=1111XXXXXXXX1111 OK
+16.click on css=#carta > option:nth-child(2) OK
+17.click on css=.btn OK
+18.assertTitle on I miei ordini OK
+19.click on css=a:nth-child(5) > img OK
+20.click on css=.userPanel input OK
+'T.C_3.3_05' completed successfully

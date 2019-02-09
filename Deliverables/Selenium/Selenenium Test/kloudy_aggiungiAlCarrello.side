@@ -1,0 +1,284 @@
+{
+  "id": "c3b92304-0382-4342-b133-813d1aef8301",
+  "version": "2.0",
+  "name": "kloudy_aggiungiAlCarrello",
+  "url": "http://localhost:8080/Kloudy",
+  "tests": [{
+    "id": "0bcc4e90-63b6-4947-9359-5196f715023a",
+    "name": "T.C_3.1_01",
+    "commands": [{
+      "id": "b64a0be2-e9dd-47cc-ba68-f049a39d786d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/Cart?id=abc",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8520dbe7-d1e5-460f-83d9-cf6f103ee859",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Errore!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6322e0f0-0b47-4b97-9281-4db1dab5e454",
+    "name": "T.C_3.1_02",
+    "commands": [{
+      "id": "0bf3fe17-b20e-4f7d-b461-29e3e97fcc32",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/Cart?id=1&action=aggiungi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4e0a278-ce7f-4e11-ae3b-56123d7541eb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Errore!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b1caba4d-1865-4f1d-af85-0edc9c628f0d",
+    "name": "T.C_3.1_04",
+    "commands": [{
+      "id": "1dc52feb-70bc-439b-9ec8-911def917d4c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01b07bb6-1108-4321-b3be-b1511145edb0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84a71547-c124-4b71-add4-0d19c11ac8e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Arte Digitale",
+      "targets": [
+        ["linkText=Arte Digitale", "linkText"],
+        ["css=.linksDiv > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Arte Digitale')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Catalogo?tipo=digitalArt')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f29876-f01b-410f-804b-a9c1fa314ab7",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=tr:nth-child(3) #quan",
+      "targets": [
+        ["css=tr:nth-child(3) #quan", "css:finder"],
+        ["xpath=(//input[@id='quan'])[2]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[7]/form/input", "xpath:position"]
+      ],
+      "value": "-10.6666259765625,7.4000244140625"
+    }, {
+      "id": "5c0171b8-b2c5-4a3e-823f-5af62a19b24f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=tr:nth-child(3) #quan",
+      "targets": [
+        ["css=tr:nth-child(3) #quan", "css:finder"],
+        ["xpath=(//input[@id='quan'])[2]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[7]/form/input", "xpath:position"]
+      ],
+      "value": "-10.6666259765625,7.4000244140625"
+    }, {
+      "id": "0d954457-8604-4b2a-be7f-0a8702e7407d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=tr:nth-child(3) #quan",
+      "targets": [
+        ["css=tr:nth-child(3) #quan", "css:finder"],
+        ["xpath=(//input[@id='quan'])[2]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[7]/form/input", "xpath:position"]
+      ],
+      "value": "-10.6666259765625,7.4000244140625"
+    }, {
+      "id": "4719376a-0b1e-45b3-8be0-add90cbed5d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) #quan",
+      "targets": [
+        ["css=tr:nth-child(3) #quan", "css:finder"],
+        ["xpath=(//input[@id='quan'])[2]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "108a2406-28ea-4c6d-abd0-6ff70e280871",
+      "comment": "",
+      "command": "type",
+      "target": "css=tr:nth-child(3) #quan",
+      "targets": [
+        ["css=tr:nth-child(3) #quan", "css:finder"],
+        ["xpath=(//input[@id='quan'])[2]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[7]/form/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "d1a4fd31-f153-433a-bb98-6fff335b1e84",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) input:nth-child(5)",
+      "targets": [
+        ["css=tr:nth-child(3) input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@value='Aggiungi al carrello'])[2]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[7]/form/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08e8193d-ce42-4ca0-a0ee-aa047c8fb824",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(6)", "css:finder"],
+        ["xpath=//td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bffccbb-dc33-481a-b817-70164985e2bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(6)", "css:finder"],
+        ["xpath=//td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6d5be05-bfba-490c-a608-ac4f58ee4b4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(6)", "css:finder"],
+        ["xpath=//td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39bd52df-f96f-4aaf-9d7b-3c3e4547caaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(6)", "css:finder"],
+        ["xpath=//td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6216085-f3a3-4414-89c7-5aaa91d896b4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=tr:nth-child(2) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(6)", "css:finder"],
+        ["xpath=//td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b48a909-a1ac-4fb9-b5af-44dde74a173c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(6)", "css:finder"],
+        ["xpath=//td[6]", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "ad02345f-fd82-43ec-88f0-4268d476b186",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Carrello",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4008e17f-e648-4562-983f-279382479850",
+    "name": "T.C_3.1_05",
+    "commands": [{
+      "id": "759a1945-c154-4eff-8f24-16002f016000",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e909888-7b9a-4948-b972-6c9cd396a8e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "979bc9cb-f3cc-47dd-9d80-fe91b604e441",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Arte Digitale",
+      "targets": [
+        ["linkText=Arte Digitale", "linkText"],
+        ["css=.linksDiv > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Arte Digitale')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Catalogo?tipo=digitalArt')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "742e964c-d14c-4bd4-9882-cd3b82aaf28c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) input:nth-child(5)",
+      "targets": [
+        ["css=tr:nth-child(3) input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@value='Aggiungi al carrello'])[2]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[7]/form/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2ab9bfd-b6ec-4f95-aa4b-ab80daf2f5a9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Errore!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1075b86d-80e0-46ec-a9d5-2699122bac02",
+    "name": "T.C_3.1_03",
+    "commands": [{
+      "id": "e0327f66-31b9-4a9e-a55f-951e57a2d73b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/Cart?id=1&action=addToCart&quantity=12abc",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48d8ebbe-fd5a-48bb-a336-3ca83497ac98",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Errore!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "73a4cbc2-94a2-45ae-b7a8-e132f9bdb3c9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0bcc4e90-63b6-4947-9359-5196f715023a"]
+  }],
+  "urls": ["http://localhost:8080/Kloudy"],
+  "plugins": []
+}

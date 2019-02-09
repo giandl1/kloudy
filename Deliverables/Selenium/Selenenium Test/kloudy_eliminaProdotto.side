@@ -1,0 +1,480 @@
+{
+  "id": "2adaedf0-a6fb-4ab2-b35c-4c9fc885b27d",
+  "version": "2.0",
+  "name": "kloudy_eliminaProdotto",
+  "url": "http://localhost:8080/Kloudy",
+  "tests": [{
+    "id": "7ca60af2-8430-4488-a87b-a9bb69a7274a",
+    "name": "T.C_2.2_01",
+    "commands": [{
+      "id": "a72be2cb-fb7e-43b3-acf2-a499a994f4e1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/EliminaProdotto",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91fdc4c9-7938-4ddf-bb14-12212ce2ed7b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Errore!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b3fa8bf5-75dc-4f63-8a0f-b06c0c681e58",
+    "name": "T.C_2.2_02",
+    "commands": [{
+      "id": "c07cfe55-cdce-479c-9b4e-b87332822395",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d15826d1-35bd-4d42-8a2e-46cf4f022a86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0255eb28-d255-4be5-8b0c-aa685add1fc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginbutton",
+      "targets": [
+        ["css=.loginbutton", "css:finder"],
+        ["css=button.loginbutton", "css"],
+        ["xpath=(//button[@onclick=\"document.getElementById('id01').style.display='block'\"])[2]", "xpath:attributes"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8110a7a-83ef-4850-af61-9968686428a7",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.logincontainer > input:nth-child(2)", "css:finder"],
+        ["css=input[name=\"uname\"]", "css"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0893dfd-b613-4517-931b-ce12d507aafa",
+      "comment": "",
+      "command": "type",
+      "target": "name=psw",
+      "targets": [
+        ["name=psw", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["css=input[name=\"psw\"]", "css"],
+        ["xpath=//input[@name='psw']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "aaa111"
+    }, {
+      "id": "6781167c-8e64-471b-a5e4-9f330a6e7130",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.logincontainer > input:nth-child(2)", "css:finder"],
+        ["css=input[name=\"uname\"]", "css"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "gianluca"
+    }, {
+      "id": "8ca61da3-2b3c-4a32-924e-71d98cb45d67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logincontainer > button",
+      "targets": [
+        ["css=.logincontainer > button", "css:finder"],
+        ["css=button[type=\"submit\"]", "css"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4672570-2533-4b03-9bef-a73b9fb68ed8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/EliminaProdotto",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae2577dc-c502-4edf-b6b8-4c02a632e402",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Errore!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06bd7242-acea-4df8-89d1-c15e90c17483",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidenav > a:nth-child(5)",
+      "targets": [
+        ["css=.sidenav > a:nth-child(5)", "css:finder"],
+        ["css=div.sidenav > a", "css"],
+        ["xpath=//a[contains(@href, 'userPanel.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8e3402c-9bb8-468c-9508-862aeecb42f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.userPanel input",
+      "targets": [
+        ["css=.userPanel input", "css:finder"],
+        ["css=div.userPanel > form > input[type=\"submit\"]", "css"],
+        ["xpath=//input[@value='Logout']", "xpath:attributes"],
+        ["xpath=//div[4]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f713e92b-8163-4aab-afd3-2ef0a19fe157",
+    "name": "T.C_2.2_03",
+    "commands": [{
+      "id": "a9c87dc2-6c1a-45cc-8a59-bdbfa7f8c7eb",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "325a2306-a62f-4f6c-972e-4d9c852f81cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bb646f2-5dc5-4a50-8bd8-d4b09fe675b8",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.dropdown-btn:nth-child(3)",
+      "targets": [
+        ["css=.dropdown-btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": "38,102"
+    }, {
+      "id": "fbb65941-ec39-4f60-b5a9-ef26e0e80502",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.dropdown-btn:nth-child(3)",
+      "targets": [
+        ["css=.dropdown-btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": "112,156"
+    }, {
+      "id": "41e42c20-d898-495a-be1b-86bcfcb2d820",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.dropdown-btn:nth-child(3)",
+      "targets": [
+        ["css=.dropdown-btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": "112,156"
+    }, {
+      "id": "42a2fdd4-9091-4308-99e8-8631251e4da6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginbutton",
+      "targets": [
+        ["css=.loginbutton", "css:finder"],
+        ["css=button.loginbutton", "css"],
+        ["xpath=(//button[@onclick=\"document.getElementById('id01').style.display='block'\"])[2]", "xpath:attributes"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee4fed02-d1d8-4c45-8caa-1ad97caae5f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logincontainer:nth-child(1)",
+      "targets": [
+        ["css=.logincontainer:nth-child(1)", "css:finder"],
+        ["css=div.logincontainer", "css"],
+        ["xpath=//div[@id='id01']/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df7d48ac-93fd-4c19-b94c-5432c7804105",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.logincontainer > input:nth-child(2)", "css:finder"],
+        ["css=input[name=\"uname\"]", "css"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc276f1b-9f13-44a9-9725-040ccb6b420c",
+      "comment": "",
+      "command": "type",
+      "target": "name=psw",
+      "targets": [
+        ["name=psw", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["css=input[name=\"psw\"]", "css"],
+        ["xpath=//input[@name='psw']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "aaa111"
+    }, {
+      "id": "2edd2e85-d815-4e85-ba66-91534c41c923",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.logincontainer > input:nth-child(2)", "css:finder"],
+        ["css=input[name=\"uname\"]", "css"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "TitoFornasiero"
+    }, {
+      "id": "7498bca7-577e-471b-8b20-9933781a2e0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logincontainer > button",
+      "targets": [
+        ["css=.logincontainer > button", "css:finder"],
+        ["css=button[type=\"submit\"]", "css"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87259c22-6ce8-4c00-bc81-09c197dc3f73",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/EliminaProdotto?id=13cd",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11c3c917-ef7c-4276-8c18-f71b2db820fb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Errore!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ede6794-72da-425e-b217-c10c52fcb84d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > img",
+      "targets": [
+        ["css=a:nth-child(5) > img", "css:finder"],
+        ["css=div.sidenav > a > img", "css"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fcb7ba8-28f4-44fa-954a-e005831f0c77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.userPanel input",
+      "targets": [
+        ["css=.userPanel input", "css:finder"],
+        ["css=div.userPanel > form > input[type=\"submit\"]", "css"],
+        ["xpath=//input[@value='Logout']", "xpath:attributes"],
+        ["xpath=//div[4]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1db81698-cd18-44d5-9090-e787dbc6b4fb",
+    "name": "T.C_2.2_04",
+    "commands": [{
+      "id": "44ef81f7-b8b5-4b98-89f9-1c3197b03f5d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Kloudy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1611cb8-8562-444c-803e-b7150024ad38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64fb88d2-1f5e-4945-93ec-7ec3672b3806",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginbutton",
+      "targets": [
+        ["css=.loginbutton", "css:finder"],
+        ["css=button.loginbutton", "css"],
+        ["xpath=(//button[@onclick=\"document.getElementById('id01').style.display='block'\"])[2]", "xpath:attributes"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6d690ba-9905-4111-8a42-e62d490694f3",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.logincontainer > input:nth-child(2)", "css:finder"],
+        ["css=input[name=\"uname\"]", "css"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f35374-fc3b-4694-b210-2d2d6776e074",
+      "comment": "",
+      "command": "type",
+      "target": "name=psw",
+      "targets": [
+        ["name=psw", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["css=input[name=\"psw\"]", "css"],
+        ["xpath=//input[@name='psw']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "aaa111"
+    }, {
+      "id": "b913662e-cb33-410d-a650-68cd11705639",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.logincontainer > input:nth-child(2)", "css:finder"],
+        ["css=input[name=\"uname\"]", "css"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "TitoFornasiero"
+    }, {
+      "id": "15ff8e00-4525-4c1f-86a3-a6dbd0731810",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logincontainer > button",
+      "targets": [
+        ["css=.logincontainer > button", "css:finder"],
+        ["css=button[type=\"submit\"]", "css"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f3e68a4-4d2f-47bb-9313-1e42bec6d543",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > img",
+      "targets": [
+        ["css=a:nth-child(5) > img", "css:finder"],
+        ["css=div.sidenav > a > img", "css"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1c72e24-c8f3-4ab9-88a1-8c577478852a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addBox:nth-child(3) img",
+      "targets": [
+        ["css=.addBox:nth-child(3) img", "css:finder"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d62fa7-f755-4b81-a18d-e23fc8eb01f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addBox:nth-child(1) img",
+      "targets": [
+        ["css=.addBox:nth-child(1) img", "css:finder"],
+        ["css=div.addBox > a > img", "css"],
+        ["xpath=//div[4]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39ace630-97f8-4268-b3ac-afd484a86a99",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) form:nth-child(1) > input:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(5) form:nth-child(1) > input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@value='Elimina prodotto'])[4]", "xpath:attributes"],
+        ["xpath=//tr[5]/td[7]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "634880dc-5df4-4b4c-adf4-18940d650602",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Opere in vendita",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e30f70-4251-4820-98c0-ed70f5745b93",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > img",
+      "targets": [
+        ["css=a:nth-child(5) > img", "css:finder"],
+        ["css=div.sidenav > a > img", "css"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b3dd993-c0a9-40ce-9ccc-b8cc788cc637",
+      "comment": "",
+      "command": "click",
+      "target": "css=.userPanel input",
+      "targets": [
+        ["css=.userPanel input", "css:finder"],
+        ["css=div.userPanel > form > input[type=\"submit\"]", "css"],
+        ["xpath=//input[@value='Logout']", "xpath:attributes"],
+        ["xpath=//div[4]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e660f86c-84d2-42e3-a093-0390cf305f9b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7ca60af2-8430-4488-a87b-a9bb69a7274a"]
+  }],
+  "urls": ["http://localhost:8080/Kloudy"],
+  "plugins": []
+}

@@ -1,0 +1,37 @@
+Running 'T.C_1.2_01'
+1.open on http://localhost:8080/Kloudy/RimuoviCarta OK
+2.assertTitle on Errore! OK
+'T.C_1.2_01' completed successfully
+
+
+Running 'T.C_1.2_02'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.open on http://localhost:8080/Kloudy/RimuoviCarta?id=abc OK
+9.assertTitle on Errore! OK
+10.click on css=.sidenav > a:nth-child(5) OK
+11.click on css=.userPanel input OK
+'T.C_1.2_02' completed successfully
+
+
+
+Running 'T.C_1.2_03'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1251x904 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value TitoFornasiero OK
+7.click on css=.logincontainer > button OK
+8.click on css=a:nth-child(5) > img OK
+9.click on css=.addBox:nth-child(6) img OK
+10.click on css=.col-xs-12:nth-child(3) .btn OK
+11.assertTitle on Lista carte di credito OK
+12.click on css=.sidenav > a:nth-child(5) OK
+13.click on css=.userPanel input OK
+'T.C_1.2_03' completed successfully

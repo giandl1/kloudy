@@ -1,0 +1,56 @@
+Running 'T.C_3.2_01'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on linkText=Arte Digitale OK
+4.click on css=tr:nth-child(2) input:nth-child(5) OK
+5.click on css=.checkoutDiv input OK
+6.assertTitle on Errore! OK
+7.click on css=a:nth-child(6) > img OK
+8.click on css=input:nth-child(5) OK
+'T.C_3.2_01' completed successfully
+
+
+
+
+Running 'T.C_3.2_02'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.type on name=psw with value aaa111 OK
+6.type on name=uname with value gianluca OK
+7.click on css=.logincontainer > button OK
+8.click on linkText=Arte Digitale OK
+9.click on css=a:nth-child(6) > img OK
+10.click on css=.checkoutDiv input OK
+11.assertTitle on Errore! OK
+12.click on css=a:nth-child(5) > img OK
+13.click on css=.userPanel input OK
+'T.C_3.2_02' completed successfully
+
+
+Running 'T.C_3.2_03'
+1.open on http://localhost:8080/Kloudy/ OK
+2.click on css=.loginbutton OK
+3.mouseDownAt on name=uname with value 141.6999969482422,18 OK
+4.mouseMoveAt on name=uname with value 141.6999969482422,18 OK
+5.mouseUpAt on name=uname with value 141.6999969482422,18 OK
+6.click on name=uname OK
+7.type on name=psw with value aaa111 OK
+8.type on name=psw with value aaa111 OK
+9.type on name=uname with value gianluca OK
+10.type on name=uname with value gianluca OK
+11.mouseDownAt on css=.logincontainer > button with value 96.69999694824219,12 OK
+12.mouseMoveAt on css=.logincontainer > button with value 96.69999694824219,12 OK
+13.mouseUpAt on css=.logincontainer > button with value 96.69999694824219,12 OK
+14.click on css=.logincontainer > button OK
+15.setWindowSize on 1936x1056 OK
+16.click on linkText=Arte Digitale OK
+17.click on css=tr:nth-child(2) input:nth-child(5) OK
+18.click on css=.checkoutDiv input OK
+19.assertTitle on CheckOut OK
+20.click on css=a:nth-child(6) > img OK
+21.click on css=input:nth-child(5) OK
+22.click on css=a:nth-child(5) > img OK
+23.click on css=.userPanel input OK
+'T.C_3.2_03' completed successfully

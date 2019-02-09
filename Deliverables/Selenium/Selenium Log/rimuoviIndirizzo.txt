@@ -1,0 +1,38 @@
+Running 'T.C_1.4_01'
+1.open on http://localhost:8080/Kloudy/RimuoviIndirizzo OK
+2.assertTitle on Errore! OK
+'T.C_1.4_01' completed successfully
+
+
+Running 'T.C_1.4_02'
+1.open on http://localhost:8080/Kloudy/ OK
+2.click on css=.loginbutton OK
+3.click on name=uname OK
+4.type on name=psw with value aaa111 OK
+5.type on name=uname with value TitoFornasiero OK
+6.click on css=.logincontainer > button OK
+7.open on http://localhost:8080/Kloudy/RimuoviIndirizzo?id=12ab OK
+8.assertTitle on Errore! OK
+9.click on css=a:nth-child(5) > img OK
+10.click on css=.userPanel input OK
+'T.C_1.4_02' completed successfully
+
+
+
+Running 'T.C_1.4_03'
+1.open on http://localhost:8080/Kloudy/ OK
+2.setWindowSize on 1936x1056 OK
+3.click on css=.loginbutton OK
+4.click on name=uname OK
+5.click on name=psw OK
+6.click on name=uname OK
+7.type on name=psw with value aaa111 OK
+8.type on name=uname with value TitoFornasiero OK
+9.click on css=.logincontainer > button OK
+10.click on css=a:nth-child(5) > img OK
+11.click on css=.addBox:nth-child(7) img OK
+12.click on css=.col-xs-12:nth-child(3) .btn OK
+13.assertTitle on Lista indirizzi OK
+14.click on css=a:nth-child(5) > img OK
+15.click on css=.userPanel input OK
+'T.C_1.4_03' completed successfully
